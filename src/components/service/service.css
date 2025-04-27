@@ -1,0 +1,50 @@
+
+.service__title{
+    font-weight: 700;
+    font-size: 52px;
+    line-height: 64px;  
+    color: rgba(2, 12, 49, 1);
+}
+.service__texts{
+    font-family: SF Pro Display;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    color: rgba(102, 102, 102, 1);
+    padding: 16px 0;
+    max-width: 335px;
+}
+.service__list{
+    display: flex;
+    justify-content: space-between;
+    gap: 16px;
+}
+.service__item{
+    max-width: 100%;
+    width: 440px;
+    border: 1px solid red;
+    background-color: rgba(243, 246, 246, 1);
+}
+.item__title{
+    font-weight: 700;
+    font-size: 32px;  
+    color: rgba(2, 12, 49, 1);
+    padding: 30px 20px;
+}
+.service__text{
+    font-weight: 500;
+    font-size: 16px;  
+    color: rgba(5, 106, 199, 1);
+    padding: 20px 30px;
+}
+.item__text{
+    font-family: SF Pro Display;
+    font-weight: 500;
+    font-size: 16px;
+    color: rgba(5, 106, 199, 1);
+    padding: 2px 30px;
+}
+.service__img{
+    text-align: end;
+    padding: 105px 40px 40px 205px ;
+}

@@ -4,12 +4,13 @@ nav{
     left: 0;
     right: 0;
     top:0;
+    box-shadow: 5px 5px 15px rgb(201, 198, 198);
 }
 .nav__container{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 5px 20px;
+    padding: 10px 20px;
 }
 .nav__right{
     display: flex;
@@ -21,9 +22,13 @@ nav{
 }
 .nav__link{
     font-weight: 400;
-    font-size: 16px;
+    font-size: 18px;
     line-height: 16px;   
     color: rgba(102, 102, 102, 1);
+}
+.nav__link:hover{
+    color: rgb(28, 27, 27);
+    transition: all 0.4s;
 }
 select{
     padding: 4px 8px;
@@ -43,6 +48,14 @@ select{
     border: none;
     border-radius: 8px;
     padding: 8px 32px;
+    cursor: pointer;
+}
+.nav__btn:hover{
+    opacity: 80%;
+}
+.nav__btn:active{
+    transform: scale(0.96);
+    transition: all 0.3s;
 }
 .hum__menu{
     display: none;
