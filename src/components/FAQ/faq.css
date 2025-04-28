@@ -1,0 +1,22 @@
+
+.hr{
+    background-color:rgba(204, 204, 204, 1);
+    height: 2px;
+    margin: 80px;
+}
+.faq__container{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+}
+.faq__title{
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 48px;
+}
+.faq__span{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 200px;
+}

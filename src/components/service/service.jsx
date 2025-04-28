@@ -18,14 +18,14 @@ const service = () => {
                     <img src={service1} alt="" className="service__img" />
                 </li>
                 <li className="service__item">
-                    <h3 className="item__title">Boshlang'ich tushunchalar</h3>
-                    <p className="service__text">Nazariy bilimlar</p>
+                    <h3 className="item__title title">O'rta</h3>
+                    <p className="service__text"> Nazariy va Amaliy bilimlar</p>
                     <p className="item__text">16 dars</p>
                     <img src={service2} alt="" className="service__img" />
                 </li>
                 <li className="service__item">
-                    <h3 className="item__title">Boshlang'ich tushunchalar</h3>
-                    <p className="service__text">Nazariy bilimlar</p>
+                    <h3 className="item__title title">Yuqori</h3>
+                    <p className="service__text">Amaliy bilimlar</p>
                     <p className="item__text">16 dars</p>
                     <img src={service3} alt="" className="service__img" />
                 </li>

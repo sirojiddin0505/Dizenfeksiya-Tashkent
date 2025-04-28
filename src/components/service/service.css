@@ -1,4 +1,6 @@
-
+.service__container{
+    padding: 40px 20px;
+}
 .service__title{
     font-weight: 700;
     font-size: 52px;
@@ -18,24 +20,28 @@
     display: flex;
     justify-content: space-between;
     gap: 16px;
+    padding: 30px 0;
 }
 .service__item{
     max-width: 100%;
-    width: 440px;
-    border: 1px solid red;
-    background-color: rgba(243, 246, 246, 1);
+    width: 370px;
+    border-radius: 12px ;
+    box-shadow: 5px 5px 10px rgb(242, 242, 242);
 }
 .item__title{
     font-weight: 700;
     font-size: 32px;  
     color: rgba(2, 12, 49, 1);
-    padding: 30px 20px;
+    padding: 15px 20px;
+}
+.title{
+    padding-bottom: 50px;
 }
 .service__text{
     font-weight: 500;
     font-size: 16px;  
     color: rgba(5, 106, 199, 1);
-    padding: 20px 30px;
+    padding: 20px 20px;
 }
 .item__text{
     font-family: SF Pro Display;
@@ -46,5 +52,44 @@
 }
 .service__img{
     text-align: end;
-    padding: 105px 40px 40px 205px ;
+    padding: 105px 0px 40px 240px ;
+}
+
+@media screen and (max-width:1100px) {
+    .service__list{
+        flex-wrap: wrap;
+        justify-content: space-around;
+        row-gap: 50px;
+    }
+}
+@media screen and (max-width:760px) {
+    .service__title{
+        font-size: 35px;
+        text-align: center ;
+    }
+    .service__texts{
+        text-align: center;
+        margin: 0 auto;
+    }
+}
+@media screen and (max-width:470px) {
+    .service__item{
+        width: 300px;
+    }
+    .item__title{
+        font-size: 25px;
+        padding: 10px 20px;
+    }
+    .title{
+        padding: 20px;
+    }
+    .service__text{
+        padding: 10px 20px;
+    }
+    .item__text{
+        padding: 0 20px;
+    }
+    .service__img{
+        padding: 70px 0 20px 190px;
+    }
 }

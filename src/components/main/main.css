@@ -5,6 +5,7 @@
     background-size: cover;
     object-fit: cover;
     max-height: 100%;
+    max-width: 100%;
 }
 .main__title{
     font-weight: 700;

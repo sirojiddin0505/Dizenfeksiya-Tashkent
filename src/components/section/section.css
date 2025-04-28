@@ -1,0 +1,54 @@
+section{
+    background: radial-gradient(95.44% 490.36% at 92.87% 11.25%, #33A9FF 0%, #33FFF3 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+}
+.section__container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+    padding: 32px;
+}
+.section__img{
+    max-width: 100%;
+    border-radius: 12px;
+}
+.section__pic{
+    padding-bottom: 12px;
+    max-width: 100%;
+}
+.section__title{
+    font-weight: 700;
+    font-size: 37px;
+    line-height: 48px;
+    color: rgba(250, 250, 250, 1);
+    max-width: 560px;
+    padding: 12px 0 135px 0;
+}
+.section__btn{
+    font-weight: 600;
+    font-size: 18px;  
+    color: rgba(255, 255, 255, 1);
+    background-color: rgba(51, 117, 255, 1);
+    padding: 12px 50px;
+    border: none;
+    border-radius: 62px;
+}
+
+@media screen and (max-width:1000px) {
+    .section__title{
+        font-size: 25px;
+        padding: 0 0 50px 0;
+    }
+}
+@media screen and (max-width:600px) {
+    .section__container{
+        flex-direction: column;
+        text-align: center;
+    }
+    .section__img{
+        max-width: 90%;
+    }
+    .section__title{
+        line-height: 40px;
+    }
+}
