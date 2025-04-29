@@ -13,17 +13,17 @@ const faq = () => {
             <div className="faq__right">
                 <span className="faq__span">
                     <h3 className="faq__subtitle">Kursdan nima topaman</h3>
-                    <img src={faq1} alt="" />
+                    <img src={faq1} alt="" className='faq__img'/>
                 </span>
                 <hr></hr>
                 <span className="faq__span">
                     <h3 className="faq__subtitle">Kursdan nima topaman</h3>
-                    <img src={faq1} alt="" />
+                    <img src={faq1} alt="" className='faq__img'/>
                 </span>
                 <hr></hr>
                 <span className="faq__span">
                     <h3 className="faq__subtitle">Kursdan nima topaman</h3>
-                    <img src={faq1} alt="" />
+                    <img src={faq1} alt="" className='faq__img'/>
                 </span>
                 <hr></hr>
             </div>

@@ -4,8 +4,7 @@
   box-sizing:border-box;
   list-style: none;
   text-decoration: none;
-  font-family: 'Franklin Gothic Medium';
-  /* font-family: Unbounded; */
+  font-family: Unbounded;
   /* font-family: SF Pro Display; */
 }
 .container{

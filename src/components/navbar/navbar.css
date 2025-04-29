@@ -4,6 +4,7 @@ nav{
     left: 0;
     right: 0;
     top:0;
+    z-index: 100;
     box-shadow: 5px 5px 15px rgb(201, 198, 198);
 }
 .nav__container{
@@ -64,7 +65,7 @@ select{
     font-weight: bold;
 }
 
-@media screen and (max-width:700px) {
+@media screen and (max-width:780px) {
     .nav__container{
         padding: 10px 20px;
     }
