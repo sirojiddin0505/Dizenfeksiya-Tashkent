@@ -1,0 +1,52 @@
+
+.footer__container{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+    gap: 50px;
+}
+.footer__text{
+    font-family: SF Pro Display;
+    font-weight: 500;
+    font-size: 16px;
+    color: rgba(36, 40, 37, 0.8);   
+}
+.footer__link{
+    font-family: SF Pro Display;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: rgba(36, 40, 37, 0.8);    
+}
+hr{
+    background-color: rgba(204, 204, 204, 1);
+    border: none;
+    height: 2px;
+}
+.footer__btn{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: rgba(36, 40, 37, 1);
+    background-color: rgba(242, 242, 242, 1);
+    padding: 12px 90px;
+    border-radius: 30px;
+    border: none;
+    margin: 8px;
+    cursor: pointer;
+}
+.footer__btn:hover{
+    background-color: rgb(181, 179, 179);
+    color: white;
+}
+
+@media screen and (max-width:600px) {
+    .footer__container{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .footer__right{
+        text-align: center;
+    }
+}

@@ -39,6 +39,7 @@ select{
     border-radius: 12px;
     outline: none;
     color: rgb(49, 47, 47);
+    cursor: pointer;
 }
 .nav__btn{
     font-weight: 500;

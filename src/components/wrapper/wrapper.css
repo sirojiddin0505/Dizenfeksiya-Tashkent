@@ -63,6 +63,7 @@ span{
     padding: 12px;
     width: 400px;
     max-width: 100%;
+    cursor: pointer;
 }
 .wrapper__btn:hover{
     opacity:85%;

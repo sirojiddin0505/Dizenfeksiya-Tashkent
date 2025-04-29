@@ -28,6 +28,7 @@ header{
     max-width: 100%;
 }
 .header__btn{
+    cursor: pointer;
     font-weight: 600;
     font-size: 18px;
     line-height: 100%;
