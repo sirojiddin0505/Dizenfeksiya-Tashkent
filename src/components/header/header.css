@@ -1,6 +1,5 @@
 header{
     padding-top: 100px;
-
 }
 .header__container{
     display: flex;
@@ -11,7 +10,7 @@ header{
 }
 .header__title{
     font-weight: 700;
-    font-size: 64px;
+    font-size: 60px;
     line-height: 62px;
     color: rgba(51, 117, 255, 1);
     max-width: 550px;
@@ -43,7 +42,8 @@ header{
 
 @media screen and (max-width:1000px) {
     .header__title{
-        font-size: 55px;
+        font-size: 50px;
+        /* max-width: 300px; */
     }
     .header__btn{
         margin-top: 70px;
@@ -71,9 +71,10 @@ header{
         display: flex;
     }
 }
-@media screen and (max-width:450px) {
+@media screen and (max-width:470px) {
     .header__title{
-        font-size: 35px;
+        font-size: 30px;
+        line-height: 35px;
     }
     .header__text{
         line-height: 25px;
