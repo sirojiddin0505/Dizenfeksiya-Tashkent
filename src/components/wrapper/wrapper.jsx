@@ -10,10 +10,11 @@ const wrapper = () => {
                 <h2 className="wrapper__title">Ma'lumotingizni qoldiring</h2>
                   <form action="#" id="form" >
                   <input type="text" placeholder='ism' className='inp' required/>
-                <input type="tel" placeholder='+998 |'className='inp' required/>
+                  <input type="tel" placeholder='+998 |'className='inp' required/>
                 <span>
-                    <input type="checkbox" required/>
-                    <p className="span__text">Maxfiylik Siyosati</p>
+                    <label className='label'>
+                      <input type="checkbox" />Maxfiylik Siyosati
+                    </label>
                 </span>
                 <button className="wrapper__btn" type='submit'>Yozilish</button>
                   </form>

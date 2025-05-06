@@ -5,6 +5,7 @@ header{
 .header__container{
     display: flex;
     justify-content: space-between;
+    align-items: center;
     gap: 30px;
     padding: 0 20px;
 }
@@ -37,7 +38,7 @@ header{
     padding: 13px 50px;
     border: none;
     border-radius: 62px;
-    margin-top: 200px;
+    /* margin-top: 200px; */
 }
 
 @media screen and (max-width:1000px) {
@@ -68,5 +69,14 @@ header{
         margin: 0 auto;
         text-align: center;
         display: flex;
+    }
+}
+@media screen and (max-width:450px) {
+    .header__title{
+        font-size: 35px;
+    }
+    .header__text{
+        line-height: 25px;
+        padding: 20px 0;
     }
 }

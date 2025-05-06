@@ -1,9 +1,7 @@
 .main{
     background-image: url(../images/main.svg);
     background-repeat: no-repeat;
-    background-position: center;
     background-size: cover;
-    object-fit: cover;
     max-height: 100%;
     max-width: 100%;
 }

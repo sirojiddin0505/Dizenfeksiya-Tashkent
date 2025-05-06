@@ -15,12 +15,17 @@
     font-size: 48px;
     line-height: 48px;
 }
-.faq__span{
+.right__box{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    gap: 500px;
+    gap: 300px;
     padding-bottom:15px;
+}
+.icon{
+    width: 25px;
+    height: 20px;
+    border-radius: 50%;
 }
 hr{
     margin: 20px 0;
@@ -33,12 +38,12 @@ hr{
 }
 
 @media screen and (max-width:1100px) {
-    .faq__span{
+    .right__box{
         gap: 350px;
     }
 }
 @media screen and (max-width:850px) {
-    .faq__span{
+    .right__box{
         gap: 200px;
     }
 }
@@ -47,15 +52,18 @@ hr{
         flex-direction: column;
     }
     .faq__title{
-        font-size: 40px;
+        font-size: 35px;
         text-align: center;
     }
     .faq__subtitle{
-        font-size: 20px;
+        font-size: 18px;
         line-height: 25px;
         max-width: 200px;
     }
-    .faq__span{
+    .right__box{
         gap: 10px;
+    }
+    p{
+        font-size: 12px;
     }
 }
