@@ -50,6 +50,7 @@ section{
         max-width: 90%;
     }
     .section__title{
-        line-height: 40px;
+        font-size: 22px;
+        line-height: 30px;
     }
 }

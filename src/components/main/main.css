@@ -60,7 +60,7 @@
     }
 }
 
-@media screen and (max-width:500px) {
+@media screen and (max-width:600px) {
     .main__container{
         padding:40px;
     }
@@ -69,7 +69,7 @@
         margin: 0 auto;
     }
     .main__title{
-        font-size: 25px;
+        font-size: 22px;
         line-height: 35px;
         padding: 0;
     }

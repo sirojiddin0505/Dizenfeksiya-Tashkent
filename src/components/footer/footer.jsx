@@ -20,9 +20,9 @@ const footer = () => {
             <p className="footer__text"><a target='_blank' href="tel:+998 94 099 3434" className="footer__link">+998 94 099 3434</a></p>
           </span>
           <hr />
-          <button className="footer__btn">Facebook</button>
-          <button className="footer__btn">Instagram</button>
-          <button className="footer__btn">Telegram</button>
+          <button className="footer__btn">{t("Facebook")}</button>
+          <button className="footer__btn">{t("Instagram")}</button>
+          <button className="footer__btn">{t("Telegram")}</button>
         </div>
       </div>
     </footer>

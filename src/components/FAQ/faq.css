@@ -7,7 +7,7 @@
 .faq__container{
     display: flex;
     justify-content: space-between;
-    padding: 20px 30px;
+    padding: 60px 30px;
     gap: 50px;
 }
 .faq__title{
@@ -20,7 +20,7 @@
     justify-content: space-between;
     align-items: center;
     gap: 300px;
-    padding-bottom:15px;
+    padding-bottom:25px;
 }
 .icon{
     width: 25px;
