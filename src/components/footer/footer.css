@@ -1,4 +1,6 @@
-
+footer{
+    background-color: white;
+}
 .footer__container{
     display: flex;
     justify-content: space-between;

@@ -1,4 +1,4 @@
-header{
+/* header{
     padding-top: 100px;
 }
 .header__container{
@@ -37,13 +37,11 @@ header{
     padding: 13px 50px;
     border: none;
     border-radius: 62px;
-    /* margin-top: 200px; */
 }
 
 @media screen and (max-width:1000px) {
     .header__title{
         font-size: 50px;
-        /* max-width: 300px; */
     }
     .header__btn{
         margin-top: 70px;
@@ -80,4 +78,4 @@ header{
         line-height: 25px;
         padding: 20px 0;
     }
-}
+} */
