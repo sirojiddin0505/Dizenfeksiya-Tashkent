@@ -4,7 +4,7 @@ import logo from '../images/logo.svg'
 import { useTranslation } from 'react-i18next'
 
 
-const footer = () => {
+const Footer = () => {
   const {t, i18n} = useTranslation();
   return (
     <footer>
@@ -29,4 +29,4 @@ const footer = () => {
   )
 }
 
-export default footer
+export default Footer
