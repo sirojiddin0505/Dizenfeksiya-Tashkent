@@ -35,9 +35,9 @@ function App() {
         <Section/>
       </main>
       
-      <main id='faq'>
+      {/* <main id='faq'>
         <Faq/>
-      </main>
+      </main> */}
 
       <main id='wrapper'>
         <Wrapper />

@@ -21,8 +21,8 @@ const Navbar = ()=>{
               </div>
               <div className="nav__center">
                   <a href="#service" className="nav__link">{t("Service")}</a>
-                  <a href="" className="nav__link">{t("About")} </a>
-                  <a href="#faq" className="nav__link">{t("Faq")}</a>
+                  <a href="#header" className="nav__link">{t("About")} </a>
+                  <a href="#hero" className="nav__link">{t("Afzalliklarimiz")}</a>
                   <a href="#wrapper" className="nav__link">{t("Contact")}</a>
               </div>
               <div className="nav__right">
@@ -39,15 +39,19 @@ const Navbar = ()=>{
             <ModalPage show={showModal} onClose={() => setShowModal(false)} />
 
             {showMenu && (
-              <div className='menubar'>
-                <div className='container menubar__container'>
-                    <div className="hum__close" onClick={() => setShowMenu(false)}>✖</div>
+              <div className='menubar fixed inset-0 bg-black/20 right-0 ' onClick={() => setShowMenu(false)}>
+                <div className='menubar2 bg-white w-[220px] h-screen border  '>
+                    <div className="hum__close font-bold " onClick={() => setShowMenu(false)}>✖</div>
                     <div className='menubar1'>
-                    <a href="#service" className='menubar__link'>Service</a>
-                    <a href="" className='menubar__link'>About</a>
-                    <a href="" className='menubar__link'>Faq</a>
-                    <a href="#wrapper" className='menubar__link'>Contact</a>
-                    <button className="nav__btn1" onClick={() => setShowModal(true)}>{t("Kirish")}</button>
+                        <a href="#service" className='menubar__link'>Xizmat</a>
+                        <a href="" className='menubar__link'>Haqida</a>
+                        <a href="" className='menubar__link'>Afzalliklarimiz</a>
+                        <a href="#wrapper" className='menubar__link'>{t('Aloqa')}</a>
+                        <button 
+                            className="border rounded-md bg-blue-500 w-full text-white hover:bg-blue-400 nav_btn1 " 
+                            onClick={() => setShowModal(true)}>
+                            {t("Bog'lanish")}
+                        </button>
                     </div>
                 </div>
               </div>

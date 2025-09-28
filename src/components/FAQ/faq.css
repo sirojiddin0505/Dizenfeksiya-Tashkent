@@ -38,6 +38,14 @@ hr{
     line-height: 32px;
     color: rgba(103, 109, 131, 1);
 }
+.faq-accardion{
+    padding: 4px 10px;
+    border-radius: 2px;
+}
+.accardion-text{
+    padding: 4px;
+    margin: 10px;
+}
 
 @media screen and (max-width:1100px) {
     .right__box{
