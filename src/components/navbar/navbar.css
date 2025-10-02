@@ -66,7 +66,7 @@ select{
 .hum__menu{
     display: none;
     font-size: 25px;
-    color: rgb(82, 81, 81);
+    color: rgb(42, 42, 42);
     font-weight: bold;
 }
 .menubar1{
@@ -76,6 +76,11 @@ select{
     justify-content: start;
     gap: 10px;
     padding:14px;
+}
+.menubar2{
+    position: relative;
+    margin-left: auto;
+    right: 0;
 }
 .menubar__link{
     color: rgb(36, 35, 35);

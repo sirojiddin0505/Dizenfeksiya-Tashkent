@@ -8,7 +8,7 @@ const Service = () => {
     const {t} = useTranslation()
   return (
     <div className='service'>
-        <div className="container service__container">
+        <div className="container service__container mt-10">
             <h2 className="service__title">{t("Service")}</h2>
             <p className="service__texts">{t("Bu darsliklari sizning yuqori daraja olishingizga yordam beradi")}</p>
             <ul className="service__list">

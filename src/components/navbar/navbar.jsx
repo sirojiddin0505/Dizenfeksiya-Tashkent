@@ -32,15 +32,16 @@ const Navbar = ()=>{
                       <option value="en">En</option>
                   </select>
                   <button className="nav__btn" onClick={() => setShowModal(!showModal)}>{t("Bog'lanish")}</button>
-                  <div className="hum__menu" onClick={() => setShowMenu(true)}>☰</div>
+                  <div className="hum__menu cursor-pointer rounded-full w-10 h-10 text-center hover:bg-gray-100 duration-400" onClick={() => setShowMenu(true)}>☰</div>
               </div>
           </div>
 
             <ModalPage show={showModal} onClose={() => setShowModal(false)} />
 
             {showMenu && (
-              <div className='menubar fixed inset-0 bg-black/20 right-0 ' onClick={() => setShowMenu(false)}>
-                <div className='menubar2 bg-white w-[220px] h-screen border  '>
+              <div className='menubar fixed inset-0 bg-black/20 ' onClick={() => setShowMenu(false)}>
+                <div className={`menubar2  bg-white w-[250px] h-screen border transform transition-transform duration-500
+                    ${showMenu ? "translate-x-0" : "translate-x-full"} `}>
                     <div className="hum__close font-bold " onClick={() => setShowMenu(false)}>✖</div>
                     <div className='menubar1'>
                         <a href="#service" className='menubar__link'>Xizmat</a>

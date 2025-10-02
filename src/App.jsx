@@ -1,6 +1,5 @@
 import './App.css'
 import './index.css'
-import Section from './components/section/Section'
 import Footer from './components/footer/Footer'
 import Wrapper from './components/wrapper/Wrapper'
 import Service from './components/service/Service'
@@ -8,6 +7,7 @@ import Header from './components/header/Header'
 import Hero from './components/hero/Hero'
 import Main from './components/main/Main'
 import Navbar from './components/navbar/Navbar'
+import Section from './components/section/Section'
 
 function App() {
   return (
@@ -31,7 +31,7 @@ function App() {
       </main>
 
       <main id='section'>
-        <Section/>
+        <Section />
       </main>
       
       {/* <main id='faq'>

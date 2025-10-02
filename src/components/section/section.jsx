@@ -5,7 +5,6 @@ import { useTranslation } from 'react-i18next'
 import ModalPage from '../Modal'
 import { useState } from 'react'
 
-
 const Section = () => {
   const [showModal, setShowModal] = useState(false)
   const {t} = useTranslation()
