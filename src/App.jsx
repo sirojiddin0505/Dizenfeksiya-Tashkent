@@ -1,17 +1,17 @@
 import './App.css'
-import './index.css'
-import Footer from './components/footer/Footer'
-import Wrapper from './components/wrapper/Wrapper'
-import Service from './components/service/Service'
+import Navbar from './components/navbar/Navbar'
 import Header from './components/header/Header'
 import Hero from './components/hero/Hero'
 import Main from './components/main/Main'
-import Navbar from './components/navbar/Navbar'
+import Wrapper from './components/wrapper/Wrapper'
+import Footer from './components/footer/Footer'
 import Section from './components/section/Section'
+import Service from './components/service/Service'
+import './index.css'
 
 function App() {
   return (
-    <section>
+    <>
         <Navbar />
 
       <main id='header'>
@@ -27,7 +27,7 @@ function App() {
       </main>
 
       <main id='service'>
-        <Service/>
+        <Service />
       </main>
 
       <main id='section'>
@@ -43,7 +43,7 @@ function App() {
       </main>
 
       <Footer />      
-    </section>
+    </>
   )
 }
 export default App
