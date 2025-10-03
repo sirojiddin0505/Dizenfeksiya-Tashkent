@@ -31,7 +31,7 @@ function App() {
       </main>
 
       <main id='section'>
-        <Section />
+        <Section/>
       </main>
       
       {/* <main id='faq'>
