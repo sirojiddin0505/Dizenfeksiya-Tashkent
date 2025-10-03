@@ -101,7 +101,8 @@ select{
     padding: 6px;
 }
 .hum__close{
-    margin:4px 20px;
+    margin:0 20px;
+    padding:10px 0px;
 }
 
 @media screen and (max-width:780px) {

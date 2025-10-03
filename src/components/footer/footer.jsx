@@ -5,7 +5,7 @@ import { useTranslation } from 'react-i18next'
 
 
 const Footer = () => {
-  const {t, i18n} = useTranslation();
+  const {t} = useTranslation();
   return (
     <footer>
       <div className="container footer__container">

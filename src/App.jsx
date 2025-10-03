@@ -1,5 +1,4 @@
 import './App.css'
-import Navbar from './components/navbar/Navbar'
 import Header from './components/header/Header'
 import Hero from './components/hero/Hero'
 import Main from './components/main/Main'
@@ -8,10 +7,11 @@ import Footer from './components/footer/Footer'
 import Section from './components/section/Section'
 import Service from './components/service/Service'
 import './index.css'
+import Navbar from './components/navbar/Navbar'
 
 function App() {
   return (
-    <>
+    <section>
         <Navbar />
 
       <main id='header'>
@@ -43,7 +43,7 @@ function App() {
       </main>
 
       <Footer />      
-    </>
+    </section>
   )
 }
 export default App

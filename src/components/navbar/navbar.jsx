@@ -40,7 +40,7 @@ const Navbar = ()=>{
 
             {showMenu && (
               <div className='menubar fixed inset-0 bg-black/20 ' onClick={() => setShowMenu(false)}>
-                <div className={`menubar2  bg-white w-[250px] h-screen border transform transition-transform duration-500
+                <div className={`menubar2  bg-white w-[250px] h-screen transform transition-transform duration-500
                     ${showMenu ? "translate-x-0" : "translate-x-full"} `}>
                     <div className="hum__close font-bold " onClick={() => setShowMenu(false)}>✖</div>
                     <div className='menubar1'>
