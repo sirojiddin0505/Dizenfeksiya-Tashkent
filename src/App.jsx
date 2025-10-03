@@ -1,18 +1,18 @@
 import './App.css'
-import Header from './components/header/Header'
-import Hero from './components/hero/Hero'
-import Main from './components/main/Main'
-import Wrapper from './components/wrapper/Wrapper'
-import Footer from './components/footer/Footer'
-import Section from './components/section/Section'
-import Service from './components/service/Service'
 import './index.css'
-import Navbar from './components/navbar/Navbar'
+import Header from './components/Header/Header'
+import Hero from './components/Hero/Hero'
+import Main from './components/Main/Main'
+import Wrapper from './components/Wrapper/Wrapper'
+import Footer from './components/Footer/Footer'
+import Section from './components/Section/Section'
+import Service from './components/Service/Service'
+import Navbar from './components/Navbar/Navbar'
 
 function App() {
   return (
     <section>
-        <Navbar />
+      <Navbar />
 
       <main id='header'>
         <Header />
@@ -31,9 +31,9 @@ function App() {
       </main>
 
       <main id='section'>
-        <Section/>
+        <Section />
       </main>
-      
+
       {/* <main id='faq'>
         <Faq/>
       </main> */}
@@ -42,8 +42,9 @@ function App() {
         <Wrapper />
       </main>
 
-      <Footer />      
+      <Footer />
     </section>
   )
 }
+
 export default App
