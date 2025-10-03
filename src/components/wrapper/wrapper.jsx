@@ -4,10 +4,10 @@ import wrapper1 from '../images/wrapper1.svg'
 import { useTranslation } from 'react-i18next'
 
 
-const Wrapper = () => {
+const  Wrapper = () => {
   const {t} = useTranslation()
   return(
-    <div className='wrapper'>
+    <div id='wrapper' className='wrapper'>
         <div className="container wrapper__container">
           <div className="wrapper__left">
               <h2 className="wrapper__title">{t("Ma'lumotingizni qoldiring")}</h2>

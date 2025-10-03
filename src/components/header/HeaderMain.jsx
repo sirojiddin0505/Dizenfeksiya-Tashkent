@@ -4,7 +4,7 @@ import { useTranslation } from 'react-i18next';
 import ModalPage from '../Modal';
 import { useState } from 'react';
 
-const Header = ()=>{
+const HeaderMain = ()=>{
     const [showModal, setShowModal] = useState(false);
     const {t} = useTranslation();
     return(
@@ -25,4 +25,4 @@ const Header = ()=>{
         </header>
     )
 }
-export default Header
+export default HeaderMain
