@@ -1,7 +1,7 @@
 import './main.css'
 import { useTranslation } from 'react-i18next'
 
-const Main = () => {
+const MainPage = () => {
   const {t} = useTranslation()
   return (
     <div id='main' className='main'>
@@ -14,4 +14,4 @@ const Main = () => {
   )
 }
 
-export default Main
+export default MainPage

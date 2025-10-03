@@ -5,12 +5,12 @@ import { useTranslation } from 'react-i18next'
 import ModalPage from '../Modal'
 import { useState } from 'react'
 
-const Section = () => {
+const SectionPage = () => {
   const [showModal, setShowModal] = useState(false)
   const {t} = useTranslation()
   return (
     <section>
-        <div className="container section__container">
+        <div id='section' className="container section__container">
           <div className="section__left">
             <img src={section1} alt="" className="section__img" />
           </div>
@@ -25,4 +25,4 @@ const Section = () => {
   )
 }
 
-export default Section
+export default SectionPage

@@ -9,7 +9,7 @@ const HeaderMain = ()=>{
     const {t} = useTranslation();
     return(
         <header>
-            <div className="container header__container">
+            <div id='header' className="container header__container">
                 <div className="header__left">
                     <h1 className="header__title">{t("Dizenfeksiya xizmati")}</h1>
                     <p className="header__text">{t("Bizning ko’p yillardan beri o’z faoliyatini olib kelayotgan kompaniyamiz Mijozlarimiz bizdan mamnun")}</p>

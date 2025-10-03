@@ -4,7 +4,7 @@ import wrapper1 from '../images/wrapper1.svg'
 import { useTranslation } from 'react-i18next'
 
 
-const  Wrapper = () => {
+const ContactPage = () => {
   const {t} = useTranslation()
   return(
     <div id='wrapper' className='wrapper'>
@@ -30,4 +30,4 @@ const  Wrapper = () => {
     </div>
   )
 }
-export default Wrapper
+export default ContactPage

@@ -4,10 +4,10 @@ import service2 from '../images/service2.svg'
 import service3 from '../images/service3.svg'
 import { useTranslation } from 'react-i18next'
 
-const Service = () => {
+const ServicePage = () => {
     const {t} = useTranslation()
   return (
-    <div className='service'>
+    <div id='service' className='service'>
         <div className="container service__container mt-10">
             <h2 className="service__title">{t("Service")}</h2>
             <p className="service__texts">{t("Bu darsliklari sizning yuqori daraja olishingizga yordam beradi")}</p>
@@ -36,4 +36,4 @@ const Service = () => {
   )
 }
 
-export default Service
+export default ServicePage

@@ -5,11 +5,10 @@ import hero2 from '../images/hero2.svg'
 import hero3 from '../images/hero3.svg'
 import { useTranslation } from 'react-i18next'
 
-
-const Hero = () => {
+const HeroPage = () => {
   const {t} = useTranslation();
   return (
-    <div className='hero'>
+    <div id='hero' className='hero'>
         <div className="container hero__container">
             <h1 className="hero__title">{t("Afzalliklarimiz")}</h1>
             <div className="boxs">
@@ -34,4 +33,4 @@ const Hero = () => {
   )
 }
 
-export default Hero
+export default HeroPage
