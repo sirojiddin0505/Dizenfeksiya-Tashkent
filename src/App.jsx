@@ -8,6 +8,7 @@ import HeroPage from './components/Hero/Index'
 import MainPage from './components/Main/Index'
 import ServicePage from './components/Service/Index'
 import SectionPage from './components/Section/Index'
+import FooterPage from './components/Footer/Index'
 
 function App() {
   return (
@@ -24,7 +25,7 @@ function App() {
       </main> */}
 
       <ContactPage />
-      <Footer />
+      <FooterPage />
     </>
   )
 }
