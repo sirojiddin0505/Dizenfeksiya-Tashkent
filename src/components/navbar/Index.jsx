@@ -4,7 +4,7 @@ import { useTranslation } from 'react-i18next';
 import { useState } from 'react';
 import ModalPage from '../Modal';
 
-const Navbar = ()=>{
+const NavbarPage = ()=>{
     const {t, i18n} = useTranslation();
     const languages = localStorage.getItem('i18nextLng')
     const handleChange = (event) =>{
@@ -60,4 +60,4 @@ const Navbar = ()=>{
         </nav>
     )
 }
-export default Navbar
+export default NavbarPage
