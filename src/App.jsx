@@ -1,6 +1,5 @@
 import './App.css'
 import './index.css'
-import Footer from './components/Footer/Footer'
 import Navbar from './components/Navbar/Navbar'
 import HeaderMain from './components/Header/HeaderMain'
 import ContactPage from './components/Wrapper/Index'
